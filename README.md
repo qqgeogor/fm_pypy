@@ -1,6 +1,6 @@
 # fm_pypy
 ## data
-    this script takes in lightsvm format data
+    this script takes in lightsvm formated data
     but with some modification in data_generator it might fit to other data format 
 
 ## how to run
