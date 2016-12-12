@@ -1,4 +1,11 @@
 # fm_pypy
+## data
+    this script takes in lightsvm format data
+    but with some modification in data_generator it might fit to other data format 
+
+## how to run
+    pypy sgd_fm.py
+
 ## example:
     sgd = SGD(lr=0.002,momentum=0.9,adam=True,nesterov=True,dropout=0.3,l2=0.0,l2_fm=0.0,task='r',n_components=4,nb_epoch=63,interaction=True,no_norm=False)# local 513834
     sgd.preload(path+'X_cat_oh_high_order.svm',path+'X_t_cat_oh_high_order.svm')
@@ -35,4 +42,3 @@
     predict: predict results
     load_weights: load saved weights
     save_weights: save weights
-    
