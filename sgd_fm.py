@@ -71,7 +71,7 @@ def bounded_sigmoid(inX):
 
 
 class SGD(object):
-    def __init__(self,lr=0.005,momentum=0.9,nesterov=True,adam=False,l2=0.0,l2_fm=0.0,l2_bias=0.0,ini_stdev= 0.01,dropout=0.5,task='c',n_components=4,nb_epoch=5,interaction=False,no_norm=False):
+    def __init__(self,lr=0.001,momentum=0.9,nesterov=True,adam=False,l2=0.0,l2_fm=0.0,l2_bias=0.0,ini_stdev= 0.01,dropout=0.5,task='c',n_components=4,nb_epoch=5,interaction=False,no_norm=False):
         self.W = []
         self.V = []        
         self.bias = uniform(-ini_stdev, ini_stdev)
